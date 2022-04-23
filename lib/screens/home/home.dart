@@ -74,6 +74,7 @@ class _HomeState extends State<Home> {
   }
 }
 
+//Navbar
 class Navbar extends StatelessWidget {
   const Navbar({Key? key}) : super(key: key);
   @override
@@ -89,6 +90,7 @@ class Navbar extends StatelessWidget {
   }
 }
 
+//Tab Menu
 class TabMenu extends StatelessWidget {
   const TabMenu(
       {required this.text,
@@ -119,6 +121,7 @@ class TabMenu extends StatelessWidget {
   }
 }
 
+//Card Box
 class CardBox extends StatelessWidget {
   const CardBox({Key? key}) : super(key: key);
 
@@ -193,6 +196,7 @@ class CardBox extends StatelessWidget {
   }
 }
 
+//Tab Items
 class TabItems extends StatefulWidget {
   const TabItems({Key? key}) : super(key: key);
 
@@ -248,6 +252,7 @@ class _TabItemsState extends State<TabItems> {
 }
 
 
+//Pay Items
 class PayItems extends StatefulWidget {
   const PayItems({Key? key}) : super(key: key);
 
@@ -290,7 +295,7 @@ class _PayItemsState extends State<PayItems> {
   }
 }
 
-
+//Transaction List
 class TransactionList extends StatefulWidget {
   const TransactionList({Key? key}) : super(key: key);
 

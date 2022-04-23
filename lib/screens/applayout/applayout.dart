@@ -93,6 +93,7 @@ class _AppLayoutState extends State<AppLayout> {
       decoration: NavBarDecoration(
         borderRadius: BorderRadius.circular(0.0),
         colorBehindNavBar: Colors.white,
+
         boxShadow:[
           const BoxShadow(
             color: Colors.white,

@@ -16,27 +16,25 @@ class _BackgroundState extends State<Background> {
   Widget build(BuildContext context) {
     return  Scaffold(
       body: SafeArea(
-        child: SingleChildScrollView(
-          child: Column(
-            mainAxisAlignment: MainAxisAlignment.spaceBetween,
-            children: [
-              widget.child,
-              Container(
-                height: 10,
-                decoration: BoxDecoration(
-                    boxShadow: [
-                      BoxShadow(
-                        color: Colors.grey.withOpacity(0.5),
-                        spreadRadius: 3,
-                        blurRadius: 13,
-                        offset: Offset(0, 3), // changes position of shadow
-                      ),
-                    ]
-                ),
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+          children: [
+            widget.child,
+            Container(
+              height: 10,
+              decoration: BoxDecoration(
+                  boxShadow: [
+                    BoxShadow(
+                      color: Colors.grey.withOpacity(0.5),
+                      spreadRadius: 3,
+                      blurRadius: 13,
+                      offset: Offset(0, 3), // changes position of shadow
+                    ),
+                  ]
+              ),
 
-              )
-            ],
-          ),
+            )
+          ],
         ),
       ),
     );
